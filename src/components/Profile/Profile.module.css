@@ -1,0 +1,61 @@
+.container {
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+
+    padding-top: 20px;
+    margin-bottom: 50px;
+}
+
+.img {
+    background-color: rgb(44, 44, 44);
+    width: 100px;
+    height: 100px;
+
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.nameText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.tags {
+    font-size: large;
+    color: grey;
+}
+
+.menu {
+    box-sizing: border-box;
+
+    display: flex;
+    list-style-type: none;
+
+    background-color: rgba(204, 204, 204, 0.583);
+    border-top: 2px solid grey;
+
+    padding: 0;
+    margin: 0;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    border-right: 2px solid grey;
+
+    width: 100px;
+    height: 80px;
+}
+
+.item:last-child {
+    border-right: 0;
+}
+
+.menuText {
+    font-weight: 400;
+}

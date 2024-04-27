@@ -1,0 +1,16 @@
+.nameText {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text {
+    font-weight: 500;
+}
+
+.active {
+    color: green;
+}
+
+.retired {
+    color: red;
+}

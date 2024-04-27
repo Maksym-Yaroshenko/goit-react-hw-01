@@ -1,0 +1,17 @@
+.menu {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+
+.item {
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 100px;
+    padding: 10px 0;
+}
+
+.nameText {
+    font-size: 20px;
+    font-weight: 600;
+}
